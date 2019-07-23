@@ -1,0 +1,10 @@
+uuid: 79ce0883-a46e-40ce-b024-3cafe4f011ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - news_entity
+id: news_entity.step_1
+label: 'Step 1'
+targetEntityType: news_entity
+cache: true

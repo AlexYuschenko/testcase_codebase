@@ -1,0 +1,7 @@
+lemberg.subscription_page:
+  path: '/subscription'
+  defaults:
+    _form: '\Drupal\lemberg\Form\SubscriptionEventForm'
+    _title: 'Subscription'
+  requirements:
+    _user_is_logged_in: 'TRUE'

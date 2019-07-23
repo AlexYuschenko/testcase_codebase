@@ -1,0 +1,19 @@
+uuid: e21d5ea9-261e-443e-be92-189992adbc13
+langcode: en
+status: true
+dependencies:
+  module:
+    - news_entity
+    - text
+id: news_entity.field_description
+field_name: field_description
+entity_type: news_entity
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

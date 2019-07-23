@@ -1,0 +1,30 @@
+uuid: 8f1c3180-4bf2-47ca-9b55-624b3f414122
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - news_entity
+id: news_entity.field_cover_image
+field_name: field_cover_image
+entity_type: news_entity
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,4 @@
+lemberg.subscription:
+  title: 'Subscribe'
+  route_name: lemberg.subscription_page
+  menu_name: main

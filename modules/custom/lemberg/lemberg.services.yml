@@ -1,0 +1,10 @@
+services:
+  lemberg.entity_name_retriever:
+    class: Drupal\lemberg\EntityNameRetriever
+    arguments: ['@current_route_match']
+  # Event subscriber
+  lemberg.subscription_event_subscriber:
+    class: '\Drupal\lemberg\EventSubscriber\SubscriptionEventSubscriber'
+    arguments: ['@current_user', '@entity_type.manager', '@messenger']
+    tags:
+      - { name: 'event_subscriber' }

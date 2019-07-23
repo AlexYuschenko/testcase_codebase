@@ -1,0 +1,38 @@
+uuid: f1dc5366-a97c-4425-9fa8-e6dd2df43ac4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.news_entity.step_2
+    - field.field.news_entity.news_entity.field_cover_image
+    - field.field.news_entity.news_entity.field_description
+    - field.field.news_entity.news_entity.field_link
+    - field.field.news_entity.news_entity.field_news_category
+    - field.field.news_entity.news_entity.field_tags
+  module:
+    - news_entity
+id: news_entity.news_entity.step_2
+targetEntityType: news_entity
+bundle: news_entity
+mode: step_2
+content:
+  field_news_category:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_tags:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  field_cover_image: true
+  field_description: true
+  field_link: true
+  name: true

@@ -1,0 +1,19 @@
+uuid: 5b5a0554-8dbf-4554-854b-f060262fb9a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - news_entity
+id: news_entity.field_link
+field_name: field_link
+entity_type: news_entity
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

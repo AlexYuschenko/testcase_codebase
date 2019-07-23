@@ -1,0 +1,6 @@
+name: Lemberg Test Case
+type: module
+description: Drupal Middle Test Case 2
+core: 8.x
+dependencies:
+  - block
